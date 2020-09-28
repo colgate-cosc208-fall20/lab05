@@ -31,7 +31,7 @@ struct node *initialize() {
     struct node *okay_yes = create("Okay. You see the lines labeled 'Yes'?");
     struct node *and_no = create("And you can see the ones labeled 'No'.?");
     struct node *but_twice = create("But you just followed them twice!");
-    struct node *but_no = create("But you see the ones labeled 'No'.");
+    struct node *but_no = create("But you see the ones labeled 'No'?");
     update(*understand, *good, *okay_yes);
     update(*okay_yes, *and_no, *but_no);
     update(*and_no, *good, *but_twice);

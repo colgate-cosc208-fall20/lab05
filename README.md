@@ -59,10 +59,10 @@ _-'    see the line   '-_--Yes-->_-'    can see the    '-_
             V                                V
          _-' '-_                          _-' '-_
       _-'       '-_                    _-'       '-_
-   _-'  Okay. You  '-_              _-'   But you   '-_
-_-'    see the line   '-_        _-'   just followed   '-_
+   _-'   But you   '-_              _-'   But you   '-_
+_-'    see the ones   '-_        _-'   just followed   '-_
 '-_      labeled      _-'        '-_    them twice!    _-'
-   |-_    "Yes"?   _-|              '-_             _-|
+   |-_    "No"?    _-|              '-_             _-|
    |  '-_       _-'  |                 '-_       _-'  |
    |      '-_ _-'    |                    '-_ _-'     |
    | Yes             | No                    | No     | Yes
