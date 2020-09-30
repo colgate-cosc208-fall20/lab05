@@ -43,9 +43,9 @@ struct node *initialize() {
 
 struct node *choice(struct node *curr) {
     while(1) {
-        printf("%s (y/n) ", curr->description);
+        printf("PROMPT: %s (y/n) ", curr->description);
         char choice;
-        gets(&choice);
+        fgets(&choice, 1, stdin);
         if ('y' == choice) {
             return curr->yes;
         }
@@ -69,5 +69,5 @@ struct node *traverse(struct node *start) {
 int main() {
     struct node *start = initialize();
     struct node *end = traverse(start);
-    printf("%s\n", end->description);
+    printf("FINISHED: %s\n", end->description);
 }
