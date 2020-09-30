@@ -44,12 +44,12 @@ struct node *initialize() {
 struct node *choice(struct node *curr) {
     while(1) {
         printf("PROMPT: %s (y/n) ", curr->description);
-        char choice;
-        fgets(&choice, 1, stdin);
-        if ('y' == choice) {
+        char choice[3];
+        fgets(choice, 3, stdin);
+        if ('y' == choice[0]) {
             return curr->yes;
         }
-        else if ('n' == choice) {
+        else if ('n' == choice[0]) {
             return curr->no;
         }
         else {
